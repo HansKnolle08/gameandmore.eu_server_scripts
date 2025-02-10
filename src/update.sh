@@ -1,5 +1,5 @@
 #!/bin/bash
-# Version 1.0
+# Version 1.2
 
 # Setze die Pfade
 temp_dir="/home/temp"
@@ -22,6 +22,7 @@ mkdir -p "$update_dir"
 mv "$temp_dir/gameandmore.eu/LICENSE" "$update_dir/"
 mv "$temp_dir/gameandmore.eu/index.html" "$update_dir/"
 mv "$temp_dir/gameandmore.eu/res" "$update_dir/"
+mv "$temp_dir/gameandmore.eu/status" "$update_dir/"
 
 # Prüfen, ob sich die Dateien geändert haben
 if diff -qr "$web_dir" "$update_dir" > /dev/null; then
