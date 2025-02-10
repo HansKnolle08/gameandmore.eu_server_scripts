@@ -1,4 +1,5 @@
 #!/bin/bash
+# Version 1.0
 
 # Setze die Pfade
 temp_dir="/home/temp"

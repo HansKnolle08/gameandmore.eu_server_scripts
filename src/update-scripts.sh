@@ -1,4 +1,5 @@
 #!/bin/bash
+# Version 1.0
 
 # Setze die Pfade
 repo_url="https://github.com/HansKnolle08/gameandmore.eu_server_skripts.git"
